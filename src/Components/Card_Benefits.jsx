@@ -1,10 +1,10 @@
 import React from "react";
 
-const Card = ({ image, title, description }) => {
+const Card = ({ image, altImage, title, description }) => {
   return (
     <div className="card bg-slate-50 mx-3 shadow-xl">
       <figure className="flex justify-center items-center h-48 w-full overflow-hidden">
-        <img src={image} alt="Prices" />
+        <img src={image} alt={altImage} />
       </figure>
       <div className="card-body">
         <h3 className="card-title text-xl font-semibold text-gray-800">

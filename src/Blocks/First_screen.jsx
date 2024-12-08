@@ -9,7 +9,7 @@ const First_screen = ({ title, description, button }) => {
         <button className="btn btn-wide button-FS">{button}</button>
       </div>
       <div className="hidden md:block basis-2/5">
-        <img src="src/assets/Picture_FS.png" alt="" />
+        <img src="/pictures/Picture_FS.png" alt="logo OpenGate" />
       </div>
     </div>
   );

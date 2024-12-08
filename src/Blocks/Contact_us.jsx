@@ -12,7 +12,7 @@ const Contact_us = () => {
           <Contact_form button={"GET FREE CONSULTATION"} />
         </div>
         <div className="hidden md:flex flex-1 flex-col items-center justify-center">
-          <img src="src/assets/logo.png" alt="Logo" />
+          <img src="/pictures/logo.png" alt="Logo" />
           <span>OPENGATE</span>
         </div>
       </div>

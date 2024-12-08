@@ -35,7 +35,7 @@ h2 {
 }
 
 .working-progress-img {
-  background-image: url("src/assets/Picture_WP.png"); /* Укажите путь к вашей картинке */
+  background-image: url("/pictures/Picture_WP.png"); /* Укажите путь к вашей картинке */
   background-size: cover; /* Картинка покрывает весь фон */
   background-position: center; /* Центрирует картинку */
   background-repeat: no-repeat;
