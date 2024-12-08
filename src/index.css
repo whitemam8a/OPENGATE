@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0 100px;
+  color: white;
+}
+
+.button-FS {
+  background: linear-gradient(to right, #9f1e6e, #581563, #130c58, #4a96bb);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.working-progress-img {
+  background-image: url("src/assets/Picture_WP.png"); /* Укажите путь к вашей картинке */
+  background-size: cover; /* Картинка покрывает весь фон */
+  background-position: center; /* Центрирует картинку */
+  background-repeat: no-repeat;
+}
+
+/* p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; 
+  font-size: 20px;
+} */
