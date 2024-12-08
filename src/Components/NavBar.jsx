@@ -36,17 +36,12 @@ const Navbar = ({ navbar_title }) => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#FFFFFF"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h8m-8 6h16"
-            />
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
           </svg>
         </div>
         {isOpen && (

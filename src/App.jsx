@@ -6,10 +6,12 @@ import Our_prices from "./Blocks/Our_prices";
 import Working_Progress from "./Blocks/Working_Progress";
 import FAQ from "./Blocks/FAQ";
 import Contact_us from "./Blocks/Contact_us";
+import Footer from "./Blocks/Footer";
 
 function App() {
   return (
     <>
+      {/* NavBar */}
       <NavBar navbar_title={"OPENGATE"} />
       {/* Начальный экран */}
       <First_screen
@@ -29,6 +31,8 @@ function App() {
       <FAQ />
       {/* Контактная форма */}
       <Contact_us />
+      {/* Footer */}
+      <Footer />
     </>
   );
 }

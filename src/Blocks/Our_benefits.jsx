@@ -3,33 +3,33 @@ import Card from "../Components/Card_Benefits";
 
 const Our_benefits = ({ title }) => {
   return (
-    <div id="Benefits" className="flex flex-col items-center">
+    <div id="Benefits" className="flex flex-col shared-padding">
       <div>
         <h2 className="text-center my-10">{title}</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
         <Card
-          title={"Простота и удобство работы"}
+          title={"Simple and easy to work with"}
           description={
-            "Независимо от вашего опыта с цифровыми технологиями, мы поможем вам с легкостью создавать и продавать NFT, устраняя любые технические барьеры."
+            "Regardless of your experience with digital, we can help you create and sell NFT with ease, removing any technical barriers."
           }
         />
         <Card
-          title={"Продвижение вашего уникального бренда"}
+          title={"Promoting your unique brand"}
           description={
-            "Мы поможем разработать стратегию и повысить видимость вашего искусства, чтобы привлечь больше внимания к вашему творчеству."
+            "We can help strategize and increase the visibility of your art to bring more attention to your work."
           }
         />
         <Card
-          title={"Выход на международный рынок"}
+          title={"Entering the international market"}
           description={
-            "Мы предоставляем доступ к глобальным NFT-платформам, где ваши работы могут найти новых поклонников и покупателей по всему миру."
+            "We provide access to global NFT platforms where your work can find new fans and buyers around the world."
           }
         />
         <Card
-          title={"Новые финансовые возможности"}
+          title={"New financial opportunities"}
           description={
-            "NFT откроет для вас новые каналы дохода, позволяя монетизировать творчество на новых уровнях."
+            "NFT will open up new revenue channels for you, allowing you to monetize your creativity on new levels."
           }
         />
       </div>

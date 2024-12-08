@@ -3,7 +3,7 @@ import Card_Progress from "../Components/Card_Progress";
 
 const Working_Progress = () => {
   return (
-    <div id="WP" className="flex flex-col ">
+    <div id="WP" className="flex flex-col shared-padding">
       <div>
         <h2 className="text-center my-10">WORKING PROGRESS</h2>
       </div>
