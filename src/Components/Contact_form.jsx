@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const Contact_form = ({ button }) => {
   const [formData, setFormData] = useState({
@@ -22,12 +23,24 @@ const Contact_form = ({ button }) => {
     console.log(formData);
 
     // Отправка данных формы через EmailJS
+
+    emailjs.init("dbqI-RPP_c06PSbSg");
+
+    const serviceID = "service_jdb566j";
+    const templateID = "template_na328em";
+
+    // const data = {
+    //   user_name: formData.name,
+    //   user_email: formData.email,
+    //   user_phone: formData.phone,
+    //   user_message: formData.message,
+    // };
+
     emailjs
       .send(
-        "service_jdb566j", // замените на ваш service ID
-        "template_na328em", // замените на ваш template ID
-        formData, // данные формы
-        "QkpNXU6o0hKBfUHwP" // замените на ваш user ID
+        serviceID,
+        templateID,
+        formData // данные формы
       )
       .then(
         (response) => {
