@@ -90,7 +90,19 @@ h2 {
 }
 
 .table-row-bg td {
-  padding: 10px; /* Обеспечивает отступы внутри ячеек */
+  padding: 10px;
+}
+
+/* Contacts */
+
+.contacts-img {
+  width: 400px;
+  height: auto;
+}
+
+.contacts-img-text {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
 }
 
 /* p {

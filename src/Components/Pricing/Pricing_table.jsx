@@ -38,14 +38,14 @@ const PricingTable = () => {
                 <p className="table-features">Features</p>
               </div>
             </th>
-            <th className="px-4 py-2 bg-white text-black rounded-lg  w-[20%]">
+            <th className="px-4 py-2 bg-white text-black rounded-t-lg  w-[20%]">
               <PricingCard
                 title={"START"}
                 description={"For artists who want to try their hand at NFT."}
                 price={"490"}
               />
             </th>
-            <th className="px-4 py-2 bg-white text-black rounded-lg  w-[20%]">
+            <th className="px-4 py-2 bg-white text-black rounded-t-lg  w-[20%]">
               <PricingCard
                 title={"GROWTH"}
                 description={
@@ -54,7 +54,7 @@ const PricingTable = () => {
                 price={"890"}
               />
             </th>
-            <th className="px-4 py-2 bg-white text-black rounded-lg  w-[20%]">
+            <th className="px-4 py-2 bg-white text-black rounded-t-lg  w-[20%]">
               <PricingCard
                 title={"MEGA"}
                 description={
@@ -258,7 +258,7 @@ const PricingTable = () => {
               backgroundPosition: "0% 64%",
             }}
           >
-            <td className="pr-4 py-3 rounded-bl-lg">
+            <td className="pr-4 py-3 rounded-b-lg">
               <FeaturesText
                 text={
                   "Personalised marketing strategy and promotion with monthly consultations and reports."
@@ -266,13 +266,13 @@ const PricingTable = () => {
                 price={"449"}
               />
             </td>
-            <td className="justify-items-center">
+            <td className="justify-items-center rounded-b-lg">
               <UncheckedIcon />
             </td>
-            <td className="justify-items-center">
+            <td className="justify-items-center rounded-b-lg">
               <UncheckedIcon />
             </td>
-            <td className="justify-items-center rounded-br-lg">
+            <td className="justify-items-center rounded-b-lg">
               <CheckMarkIcon />
             </td>
           </tr>

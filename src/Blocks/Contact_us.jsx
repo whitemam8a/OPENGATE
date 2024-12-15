@@ -1,5 +1,5 @@
 import React from "react";
-import Contact_form from "../Components/Contact_form";
+import Contact_form from "../Components/ContactForm/Contact_form";
 
 const Contact_us = () => {
   return (
@@ -12,8 +12,8 @@ const Contact_us = () => {
           <Contact_form button={"GET FREE CONSULTATION"} />
         </div>
         <div className="hidden md:flex flex-1 flex-col items-center justify-center">
-          <img src="/pictures/logo.png" alt="Logo" />
-          <span>OPENGATE</span>
+          <img className="contacts-img" src="/pictures/logo.png" alt="Logo" />
+          <span className="contacts-img-text">OPENGATE</span>
         </div>
       </div>
     </div>
