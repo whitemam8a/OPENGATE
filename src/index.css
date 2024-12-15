@@ -45,6 +45,54 @@ h2 {
   @apply px-4 md:px-[100px];
 }
 
+/* Table */
+
+.table-features {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.table-head-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.table-head-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* regular */
+  font-size: 16px;
+  color: #737171;
+}
+
+.table-head-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+}
+
+.table-features-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table-features-description {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.table-row-bg {
+  background-size: cover;
+  background-position: center;
+}
+
+.table-row-bg td {
+  padding: 10px; /* Обеспечивает отступы внутри ячеек */
+}
+
 /* p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; 
