@@ -4,7 +4,7 @@ const Navbar = ({ navbar_title }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="navbar navbar_custom">
+    <div className="navbar navbar_custom shared-padding">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">
           {" "}
