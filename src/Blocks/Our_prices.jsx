@@ -6,7 +6,7 @@ import PricingColumn from "../Components/Pricing/Pricing_Column";
 const Our_prices = () => {
   return (
     <div id="Prices" className="flex flex-col shared-padding">
-      <div>
+      <div className="my-10 md:mt-[80px]">
         <h2 className="text-center my-10">OUR PRICES</h2>
       </div>
       <div className="flex ">

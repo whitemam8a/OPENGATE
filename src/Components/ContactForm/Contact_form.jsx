@@ -28,7 +28,7 @@ const Contact_form = ({ button }) => {
 
     emailjs.init("dbqI-RPP_c06PSbSg");
 
-    const serviceID = "service_jdb566j";
+    const serviceID = "service_qaw25ne";
     const templateID = "template_na328em";
 
     emailjs.send(serviceID, templateID, formData).then(

@@ -6,7 +6,11 @@ const Navbar = ({ navbar_title }) => {
   return (
     <div className="navbar navbar_custom">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">{navbar_title}</a>
+        <a className="btn btn-ghost text-xl">
+          {" "}
+          <img src="/pictures/logo.png" alt="Logo" className="h-12 w-12" />
+          {navbar_title}
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

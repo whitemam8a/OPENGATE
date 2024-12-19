@@ -19,9 +19,9 @@ const CheckMarkIcon = () => (
         y2="19.7702"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#F58450" />
-        <stop offset="0.58" stop-color="#8F4D2F" />
-        <stop offset="0.995" stop-color="#8F4D2F" />
+        <stop stopColor="#F58450" />
+        <stop offset="0.58" stopColor="#8F4D2F" />
+        <stop offset="0.995" stopColor="#8F4D2F" />
       </linearGradient>
     </defs>
   </svg>

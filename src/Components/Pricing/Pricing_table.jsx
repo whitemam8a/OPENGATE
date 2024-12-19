@@ -4,7 +4,7 @@ import UncheckedIcon from "../../Icons/Unchecked";
 
 const PricingTable = () => {
   const PricingCard = ({ title, description, price }) => (
-    <div classNameName="flex flex-col justify-items-start">
+    <div className="flex flex-col justify-items-start">
       <p className="table-head-title">{title}</p>
       <p className="table-head-desc">{description}</p>
       <p className="table-head-price">€ {price}</p>
@@ -21,7 +21,7 @@ const PricingTable = () => {
   return (
     <div
       className="w-full bg-black "
-      // className="w-full bg-cover bg-center rounded-[30px]"
+      // className="w-full bg-cover bg-[#5D1140] rounded-[30px]"
       // style={{ backgroundImage: 'url("/pictures/bg-pricies.png")' }}
     >
       <table className="table-auto w-full border-separate border-spacing-x-5">
@@ -29,8 +29,9 @@ const PricingTable = () => {
           <tr
             className="bg-cover"
             style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 10%",
+              background: "linear-gradient(to bottom, #000000, #190410)",
+              // backgroundImage: 'url("/pictures/bg-pricies.png")',
+              // backgroundPosition: "0% 10%",
             }}
           >
             <th className="px-4 py-2  text-white rounded-t-lg w-[40%]">
@@ -66,13 +67,7 @@ const PricingTable = () => {
           </tr>
         </thead>
         <tbody>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 25%",
-            }}
-          >
+          <tr className="bg-cover bg-[#180410] " style={{}}>
             <td className="pt-3 border-t-2 border-t-indigo-500">
               <p className="table-features-title">Creating and digitising:</p>
             </td>
@@ -80,13 +75,7 @@ const PricingTable = () => {
             <td className="px-4 py-2 border-t-2 border-t-indigo-500"></td>
             <td className="px-4 py-2 border-t-2 border-t-indigo-500"></td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 29%",
-            }}
-          >
+          <tr className="bg-cover bg-[#1F0615] " style={{}}>
             <td className="px-4 ">
               <FeaturesText text={"- up to 5 NFT works"} price={"229"} />
             </td>
@@ -102,13 +91,7 @@ const PricingTable = () => {
               <UncheckedIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 32%",
-            }}
-          >
+          <tr className="bg-cover bg-[#1F0615] " style={{}}>
             <td className="px-4 ">
               <FeaturesText text={"- up to 10 NFT works"} price={"399"} />
             </td>
@@ -122,13 +105,7 @@ const PricingTable = () => {
               <UncheckedIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 35%",
-            }}
-          >
+          <tr className="bg-cover bg-[#1F0615] " style={{}}>
             <td className="px-4 pb-3 border-b-2 border-b-indigo-500">
               <FeaturesText text={"- up to 20 NFT works"} price={"699"} />
             </td>
@@ -142,13 +119,7 @@ const PricingTable = () => {
               <CheckMarkIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 38%",
-            }}
-          >
+          <tr className="bg-cover bg-[#340A24] " style={{}}>
             <td className="pt-3 ">
               <p className="table-features-title">
                 Publishing collection with metadata on the NFT marketplace
@@ -158,13 +129,7 @@ const PricingTable = () => {
             <td className="px-4 "></td>
             <td className="px-4 "></td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 42%",
-            }}
-          >
+          <tr className="bg-cover bg-[#3A0A28] " style={{}}>
             <td className="pr-4 pb-3 border-b-2 border-b-indigo-500">
               <FeaturesText
                 text={"*excluding marketplace fees"}
@@ -181,13 +146,7 @@ const PricingTable = () => {
               <CheckMarkIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 46%",
-            }}
-          >
+          <tr className="bg-cover bg-[#430E2F] " style={{}}>
             <td className="pr-4 py-2  border-b-2 border-b-indigo-500">
               <FeaturesText text={"Sales strategy consultancy"} price={"199"} />
             </td>
@@ -201,13 +160,7 @@ const PricingTable = () => {
               <UncheckedIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 52%",
-            }}
-          >
+          <tr className="bg-cover bg-[#530F39] " style={{}}>
             <td className="pr-4 py-3 border-b-2 border-b-indigo-500 ">
               <FeaturesText
                 text={
@@ -226,17 +179,11 @@ const PricingTable = () => {
               <UncheckedIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 58%",
-            }}
-          >
+          <tr className="bg-cover bg-[#540F3A] " style={{}}>
             <td className="pr-4 py-3 border-b-2 border-b-indigo-500">
               <FeaturesText
                 text={
-                  "DPromotion through partnerships and participation in exhibitions."
+                  "Promotion through partnerships and participation in exhibitions."
                 }
                 price={"299"}
               />
@@ -251,13 +198,7 @@ const PricingTable = () => {
               <CheckMarkIcon />
             </td>
           </tr>
-          <tr
-            className="bg-cover bg-center "
-            style={{
-              backgroundImage: 'url("/pictures/bg-pricies.png")',
-              backgroundPosition: "0% 64%",
-            }}
-          >
+          <tr className="bg-cover bg-[#5D1140] " style={{}}>
             <td className="pr-4 py-3 rounded-b-lg">
               <FeaturesText
                 text={

@@ -5,7 +5,7 @@ const Contact_us = () => {
   return (
     <div id="Contacts" className="flex flex-col shared-padding">
       <div>
-        <h2 className="text-center my-10">Contact us</h2>
+        <h2 className="text-center my-10">CONTACT US</h2>
       </div>
       <div className="flex flex-row items-center">
         <div className="w-full md:flex-1 gap-10">

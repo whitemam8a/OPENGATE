@@ -4,7 +4,7 @@ import Card_FAQ from "../Components/Card_FAQ";
 const FAQ = () => {
   return (
     <div id="FAQ" className="flex flex-col shared-padding">
-      <div>
+      <div className="my-10 md:my-[80px]">
         <h2 className="text-center my-10">FREQUENTLY ASKED QUESTIONS</h2>
       </div>
       <div className="flex flex-col gap-4 md:w-[70%] md:self-end ">

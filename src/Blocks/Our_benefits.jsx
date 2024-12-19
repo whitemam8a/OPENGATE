@@ -5,7 +5,7 @@ const Our_benefits = ({ title }) => {
   return (
     <div id="Benefits" className="flex flex-col shared-padding">
       <div>
-        <h2 className="text-center my-10">{title}</h2>
+        <h2 className="text-center my-10 md:my-[80px]">{title}</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         <Card
