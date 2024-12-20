@@ -28,6 +28,11 @@ h1 {
   /* font-size: 48px; */
 }
 
+.FS-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -42,7 +47,7 @@ h2 {
 }
 
 .shared-padding {
-  @apply px-4 md:px-[200px];
+  @apply px-10 md:px-[50px] lg:px-[150px];
 }
 
 /* Table */
