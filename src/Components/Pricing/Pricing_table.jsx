@@ -27,14 +27,16 @@ const PricingTable = () => {
       <table className="table-auto w-full border-separate border-spacing-x-5">
         <thead>
           <tr
-            className="bg-cover"
-            style={{
-              background: "linear-gradient(to bottom, #000000, #190410)",
-              // backgroundImage: 'url("/pictures/bg-pricies.png")',
-              // backgroundPosition: "0% 10%",
-            }}
+            className="bg-cover bg-white"
+            style={
+              {
+                // background: "linear-gradient(to bottom, #000000, #190410)",
+                // backgroundImage: 'url("/pictures/bg-pricies.png")',
+                // backgroundPosition: "0% 10%",
+              }
+            }
           >
-            <th className="px-4 py-2  text-white rounded-t-lg w-[40%]">
+            <th className="px-4 py-2  text-black rounded-t-lg w-[40%]">
               <div className="flex ">
                 <p className="table-features">Features</p>
               </div>
@@ -68,7 +70,7 @@ const PricingTable = () => {
         </thead>
         <tbody>
           <tr className="bg-cover bg-[#180410] " style={{}}>
-            <td className="pt-3 border-t-2 border-t-indigo-500">
+            <td className="pt-3 px-6 border-t-2 border-t-indigo-500">
               <p className="table-features-title">Creating and digitising:</p>
             </td>
             <td className="px-4 py-2 border-t-2 border-t-indigo-500"></td>
@@ -76,7 +78,7 @@ const PricingTable = () => {
             <td className="px-4 py-2 border-t-2 border-t-indigo-500"></td>
           </tr>
           <tr className="bg-cover bg-[#1F0615] " style={{}}>
-            <td className="px-4 ">
+            <td className="px-10 ">
               <FeaturesText text={"- up to 5 NFT works"} price={"229"} />
             </td>
             <td className="px-4 ">
@@ -92,7 +94,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#1F0615] " style={{}}>
-            <td className="px-4 ">
+            <td className="px-10 ">
               <FeaturesText text={"- up to 10 NFT works"} price={"399"} />
             </td>
             <td className="justify-items-center">
@@ -106,7 +108,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#1F0615] " style={{}}>
-            <td className="px-4 pb-3 border-b-2 border-b-indigo-500">
+            <td className="px-10 pb-3 border-b-2 border-b-indigo-500">
               <FeaturesText text={"- up to 20 NFT works"} price={"699"} />
             </td>
             <td className="justify-items-center border-b-2 border-b-indigo-500">
@@ -120,7 +122,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#340A24] " style={{}}>
-            <td className="pt-3 ">
+            <td className="pt-3 px-6">
               <p className="table-features-title">
                 Publishing collection with metadata on the NFT marketplace
               </p>
@@ -130,7 +132,7 @@ const PricingTable = () => {
             <td className="px-4 "></td>
           </tr>
           <tr className="bg-cover bg-[#3A0A28] " style={{}}>
-            <td className="pr-4 pb-3 border-b-2 border-b-indigo-500">
+            <td className="pl-6 pr-10 pb-3 border-b-2 border-b-indigo-500">
               <FeaturesText
                 text={"*excluding marketplace fees"}
                 price={"199"}
@@ -147,7 +149,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#430E2F] " style={{}}>
-            <td className="pr-4 py-2  border-b-2 border-b-indigo-500">
+            <td className="pl-6 pr-10 py-2  border-b-2 border-b-indigo-500">
               <FeaturesText text={"Sales strategy consultancy"} price={"199"} />
             </td>
             <td className="justify-items-center border-b-2 border-b-indigo-500">
@@ -161,7 +163,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#530F39] " style={{}}>
-            <td className="pr-4 py-3 border-b-2 border-b-indigo-500 ">
+            <td className="pl-6 pr-10 py-3 border-b-2 border-b-indigo-500 ">
               <FeaturesText
                 text={
                   "Develop a marketing strategy and advice with promotion and setting up ads."
@@ -180,7 +182,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#540F3A] " style={{}}>
-            <td className="pr-4 py-3 border-b-2 border-b-indigo-500">
+            <td className="pl-6 pr-10 py-3 border-b-2 border-b-indigo-500">
               <FeaturesText
                 text={
                   "Promotion through partnerships and participation in exhibitions."
@@ -199,7 +201,7 @@ const PricingTable = () => {
             </td>
           </tr>
           <tr className="bg-cover bg-[#5D1140] " style={{}}>
-            <td className="pr-4 py-3 rounded-b-lg">
+            <td className="pl-6 pr-10 py-3 rounded-b-lg">
               <FeaturesText
                 text={
                   "Personalised marketing strategy and promotion with monthly consultations and reports."

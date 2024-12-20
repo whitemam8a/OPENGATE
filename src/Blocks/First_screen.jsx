@@ -5,7 +5,7 @@ const First_screen = ({ title, description, button }) => {
     document.getElementById("Contacts")?.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <div className="flex flex-row shared-padding">
+    <div className="flex flex-row shared-padding pt-10">
       <div className="flex flex-col justify-center md:basis-3/5 gap-6">
         <h1 className="text-[30px] md:text-[48px] pr-[100px]">{title}</h1>
         <p className="pr-[100px]">{description}</p>

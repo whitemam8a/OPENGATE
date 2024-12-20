@@ -42,7 +42,7 @@ h2 {
 }
 
 .shared-padding {
-  @apply px-4 md:px-[100px];
+  @apply px-4 md:px-[200px];
 }
 
 /* Table */
@@ -68,7 +68,7 @@ h2 {
 
 .table-head-price {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 34px;
 }
 
